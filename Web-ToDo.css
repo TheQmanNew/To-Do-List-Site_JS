@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo%202:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #c9e6fae1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+}
+
+input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background: #32ff81;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 3px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button{
+    background: #e44a59;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+}
